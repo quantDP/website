@@ -18,6 +18,17 @@ extensions = []
 templates_path = ['_templates']
 exclude_patterns = []
 
+html_title = "quantDP"
+
+html_theme_options = {
+    "source_repository": "https://github.com/quantDP/website/",
+    "source_branch": "master",
+    "source_directory": "",
+}
+
+html_theme_options = {
+    "announcement": "<em>Important</em> announcement!",
+}
 
 
 # -- Options for HTML output -------------------------------------------------
