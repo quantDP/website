@@ -21,6 +21,7 @@ exclude_patterns = []
 html_title = "quantDP"
 
 html_theme_options = {
+    # "announcement": "[put donation pitch here]",
     "footer_icons": [
         {
             "name": "GitHub",
@@ -46,10 +47,6 @@ html_theme_options = {
     "source_repository": "https://github.com/quantDP/website/",
     "source_branch": "master",
     "source_directory": "source/",
-}
-
-html_theme_options = {
-    "announcement": "<em>Important</em> announcement!",
 }
 
 language = "en"
