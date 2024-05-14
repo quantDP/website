@@ -22,6 +22,10 @@ extensions = [
     "sphinx_design",
 ]
 
+myst_enable_extensions = [
+    "attrs_inline",
+]
+
 notfound_urls_prefix = None
 
 notfound_context = {
