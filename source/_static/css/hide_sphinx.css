@@ -4,6 +4,6 @@
 }
 
 .copyright {
-    color: black !important;
-    font-size: medium;
+    color: var(--color-foreground-secondary) !important;
+    font-size: var(--font-size--small);
 }
