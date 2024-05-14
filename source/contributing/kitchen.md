@@ -173,10 +173,6 @@ Button text
 :expand:
 ```
 
-===========
-Admonitions
-===========
-
 Sphinx provides several different types of admonitions.
 
 ``topic``
