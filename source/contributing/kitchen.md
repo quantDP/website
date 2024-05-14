@@ -1,7 +1,5 @@
 # Kitchen Sink
 
-# sphinx-design stuff
-
 ## Icons
 
 {octicon}`heart-fill;1em;sd-text-danger`
@@ -173,96 +171,81 @@ Button text
 :expand:
 ```
 
-Sphinx provides several different types of admonitions.
+```{admonition} topic
+This is a topic.
 
-``topic``
-=========
+This is what admonitions are a special case of, according to the docutils
+documentation.
+```
 
-.. topic:: This is a topic.
+```{admonition} admonition
+The one with the custom titles
 
-   This is what admonitions are a special case of, according to the docutils
-   documentation.
+It's got a certain charm to it.
+```
 
-``admonition``
-==============
+```{admonition} attention
+:class: attention
 
-.. admonition:: The one with the custom titles
+Climate change is real.
+```
 
-   It's got a certain charm to it.
+```{admonition} caution
+:class: caution
 
-``attention``
-=============
+Cliff ahead: Don't drive off it.
+```
 
-.. attention::
+```{admonition} danger
+:class: danger
 
-   Climate change is real.
+Mad scientist at work!
+```
 
-``caution``
-===========
+```{admonition} error
+:class: error
 
-.. caution::
+Does not compute.
+```
 
-   Cliff ahead: Don't drive off it.
+```{admonition} hint
+:class: hint
 
-``danger``
-==========
+Insulators insulate, until they are subject to ______ voltage.
+```
 
-.. danger::
+```{admonition} important
+:class: important
 
-   Mad scientist at work!
+Tech is not neutral, nor is it apolitical.
+```
 
-``error``
-=========
+```{admonition} note
+:class: note
 
-.. error::
+This is a note.
+```
 
-   Does not compute.
+```{admonition} seealso
+:class: seealso
 
-``hint``
-========
+Other relevant information.
+```
 
-.. hint::
+```{admonition} tip
+:class: tip
 
-   Insulators insulate, until they are subject to ______ voltage.
+25% if the service is good.
+```
 
-``important``
-=============
+```{admonition} todo
+:class: todo
 
-.. important::
+This needs the ``sphinx.ext.todo`` extension.
+```
 
-   Tech is not neutral, nor is it apolitical.
+```{admonition} warning
+:class: warning
 
-``note``
-========
-
-.. note::
-
-   This is a note.
-
-``seealso``
-===========
-
-.. seealso::
-
-   Other relevant information.
-
-``tip``
-=======
-
-.. tip::
-
-   25% if the service is good.
-
-``todo``
-========
-
-.. todo::
-
-   This needs the ``sphinx.ext.todo`` extension.
-
-``warning``
-===========
-
-.. warning::
-
-   Reader discretion is strongly advised.
+Reader discretion is strongly advised.
+```
