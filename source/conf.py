@@ -20,6 +20,8 @@ exclude_patterns = []
 
 html_title = "quantDP"
 
+html_show_sourcelink = True
+
 html_theme_options = {
     # "announcement": "[put donation pitch here]",
     "footer_icons": [
