@@ -1,3 +1,8 @@
 sphinx
 furo
 sphinx-notfound-page
+sphinx-inline-tabs
+myst-parser
+sphinxext-opengraph
+sphinx-copybutton
+sphinx-design

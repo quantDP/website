@@ -14,15 +14,20 @@ author = 'quantDP'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = [
-    'notfound.extension',
-
+    "notfound.extension",
+    "sphinx.ext.viewcode",
+    "sphinx_inline_tabs",
+    "myst_parser",
+    "sphinxext.opengraph",
+    "sphinx_copybutton",
+    "sphinx_design",
 ]
 
-notfound_urls_prefix = "/"
+notfound_urls_prefix = None
 
 notfound_context = {
     'title': 'Page not found',
-    'body': "<h1>Page not found</h1>\n\nUnfortunately we couldn't find the content you were looking for.",
+    'body': "<h1>Page not found</h1>\n\nUnfortunately, we couldn't find the content you were looking for.",
 }
 
 html_extra_path = ["public"]
