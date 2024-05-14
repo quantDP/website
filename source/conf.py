@@ -20,8 +20,6 @@ exclude_patterns = []
 
 html_title = "quantDP"
 
-html_show_sourcelink = True
-
 html_theme_options = {
     # "announcement": "[put donation pitch here]",
     "footer_icons": [
@@ -59,3 +57,7 @@ language = "en"
 
 html_theme = 'furo'
 html_static_path = ['_static']
+
+html_css_files = [
+    'css/hide_sphinx.css',
+]
