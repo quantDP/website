@@ -18,7 +18,7 @@ extensions = [
 
 ]
 
-notfound_urls_prefix = None
+notfound_urls_prefix = "/"
 
 notfound_context = {
     'title': 'Page not found',
