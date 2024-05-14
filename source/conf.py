@@ -13,7 +13,19 @@ author = 'quantDP'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = []
+extensions = [
+    'notfound.extension',
+
+]
+
+notfound_urls_prefix = None
+
+notfound_context = {
+    'title': 'Page not found',
+    'body': "<h1>Page not found</h1>\n\nUnfortunately we couldn't find the content you were looking for.",
+}
+
+html_extra_path = ["public"]
 
 templates_path = ['_templates']
 exclude_patterns = []
