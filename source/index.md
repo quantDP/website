@@ -2,7 +2,7 @@
 hide-toc: true
 ---
 
-# quantDP
+[quantDP logo](_static/images/logo.svg)
 
 We're on a mission to make high-quality institutional market data accessible to all.
 

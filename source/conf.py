@@ -15,7 +15,6 @@ author = 'quantDP'
 
 extensions = [
     "notfound.extension",
-    "sphinx.ext.viewcode",
     "sphinx_inline_tabs",
     "myst_parser",
     "sphinxext.opengraph",
