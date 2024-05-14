@@ -22,6 +22,8 @@ extensions = [
     "sphinx_design",
 ]
 
+html_favicon = 'favicon.ico'
+
 myst_enable_extensions = [
     "attrs_inline",
 ]
@@ -67,6 +69,14 @@ html_theme_options = {
     "source_repository": "https://github.com/quantDP/website/",
     "source_branch": "master",
     "source_directory": "source/",
+    "light_logo": "images/logo.svg",
+    "dark_logo": "images/logo-white.svg",
+    "sidebar_hide_name": True,
+}
+
+myst_html_meta = {
+    "keywords": "Free, Market, Data, Stock, API, Historical, JSON",
+    "property=og:locale": "en_US"
 }
 
 language = "en"
@@ -79,5 +89,5 @@ html_theme = 'furo'
 html_static_path = ['_static']
 
 html_css_files = [
-    'css/hide_sphinx.css',
+    'css/custom.css',
 ]
