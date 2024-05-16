@@ -40,7 +40,7 @@ html_extra_path = ["public"]
 templates_path = ['_templates']
 exclude_patterns = []
 
-html_title = "quantDP | The #1 Free Market Data API"
+html_title = "quantDP | #1 Free Market Data API"
 
 html_theme_options = {
     # "announcement": "[put donation pitch here]",
