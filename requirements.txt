@@ -1,4 +1,4 @@
-sphinx==2.2.0
+sphinx
 furo @ git+https://github.com/quantDP/qdp-furo@main
 sphinx-notfound-page
 sphinx-inline-tabs
