@@ -7,7 +7,7 @@ myst:
 
 # quantDP
 ---
-**We're on a mission to make high-quality institutional market data accessible to all. Our platform freely provides flat files through a developer-friendly API..**
+*We're on a mission to make high-quality institutional market data accessible to all. Our platform freely provides flat files through a developer-friendly API..*
 
 
 
