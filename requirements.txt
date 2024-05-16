@@ -1,5 +1,5 @@
 sphinx
-furo
+furo @ git+https://github.com/quantDP/qdp-furo@main
 sphinx-notfound-page
 sphinx-inline-tabs
 myst-parser

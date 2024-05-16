@@ -2,12 +2,12 @@
 hide-toc: true
 myst:
   html_meta:
-    "description lang=en": "We're on a mission to make high-quality institutional market data accessible to all."
+    "description lang=en": "Empowering quants and researchers with free access to high-quality institutional market data. We offer a developer-friendly API and freely available flat files."
 ---
 
 # quantDP
+*We're on a mission to make high-quality institutional market data accessible to all. Our platform freely provides flat files through a developer-friendly API.*
 
-We're on a mission to make high-quality institutional market data accessible to all.
 
 
 
