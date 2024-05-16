@@ -7,7 +7,7 @@ myst:
 
 # quantDP
 
-We're on a mission to make high-quality institutional market data accessible to all.
+### We're on a mission to make high-quality institutional market data accessible to all.
 
 
 
